@@ -17,7 +17,7 @@ superagent.get('https://nekos.life/api/v2/img/cum')
   const lewdembed = new Discord.MessageEmbed()
   .setTitle("Random cumsluts")
   .setImage(response.body.url)
-  .setColor(`#000000`)
+  .setColor(RANDOM)
   .setURL(response.body.url);
 message.channel.send(lewdembed);
 })
